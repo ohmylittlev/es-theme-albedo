@@ -266,6 +266,8 @@
       <padding>0 0.015 0 0</padding>
 
       <color>ffffff</color>
+
+      <visible>false</visible>
     </text>
 
     <text name="clock" ifSubset="StatusBar:statusBattery|statusHidden">
@@ -277,6 +279,7 @@
       <pos ifSubset="StatusBar:statusClock">0.845 0.04</pos>
       <size>0.14 0.083333333</size>
       <fontSize>${fontSizeBody2-medium}</fontSize>
+      <visible>false</visible>
     </text>
 
     <text name="clock" ifSubset="Ratio:5-3">
@@ -284,6 +287,7 @@
       <pos ifSubset="StatusBar:statusClock">0.8875 0.04</pos>
       <size>0.1 0.083333333</size>
       <fontSize>${fontSizeBody-medium}</fontSize>
+      <visible>false</visible>
     </text>
 
     <batteryIndicator name="batteryIndicator">
